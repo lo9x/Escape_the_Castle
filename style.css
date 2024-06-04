@@ -7,13 +7,16 @@ body {
     margin: auto;
 }
 
+h2{
+    text-align: center;
+}
+
 header {
     padding: 10px 0;
 }
 
 .head{
     justify-content: space-around;
-    border: ;
 }
 
 .head > li{
@@ -71,9 +74,20 @@ h2 {
     margin-bottom: 20px;
 }
 
-#main-character img {
-    display: block;
-    margin: 0 auto 20px;
+.main-character{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-character img {
+    width: 300px;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer {
@@ -90,4 +104,21 @@ hr{
     border: none;
     border-radius: 20px;
     height: 10px;
+    margin: 50px 5px;
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img img{
+    border-radius: 30px;
+    width: 300px;
+}
+
+.icon-text{
+    margin-left: 50px;
 }
